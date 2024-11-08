@@ -1,12 +1,97 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.cubo-extendido { 
+    position: relative;
+    background: black;
+    height: 25rem;
+    width: 7rem;
+    border-radius: 50px;
+    padding-top: 0;
     
+}
+.cubo{
+    position: relative;
+    background: black;
+    height: 20rem;
+    width: 7rem;
+    border-radius: 50px;
+    padding-top: 0;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.circulo{
+    display: block;
+    align-items: center;
+    padding-block: 10px;
+}
+.palito{
+    position: absolute;
+     border-radius: 50px;
+     background-color: black;
+     height: 20rem;
+     width: 1rem;
+     margin-left: 3rem;
+     padding-bottom: 0;
+     margin-top: 1rem;
+     
+}
+.rojo{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 1.5em;
+}
+.amarillo{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 1.5em;
+}
+.verde{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color:green;
+    margin-left: 1.5em;
+}
+.morado{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color:purple;
+    margin-left: 1.5em;
+    transition: height 0.5s ease;
+}
+.wrapper{
+    justify-items: center;
+    margin-left: 500px;
+    margin-top: 25px;
+}
 
-*/
+.glow1{
+    box-shadow: 0px 0px 30px 20px rgb(250, 109, 109) ;
+    
+}
+.glow2{
+    box-shadow: 0px 0px 30px 20px rgb(250, 236, 109) ;
+}
+.glow3{
+    box-shadow: 0px 0px 30px 20px rgb(109, 250, 132) ;
+}
+.glow4{
+    box-shadow: 0px 0px 30px 20px rgb(236, 93, 255) ;
+}
